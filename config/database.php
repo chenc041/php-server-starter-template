@@ -23,6 +23,7 @@ return [
             'username' => getenv('DB_USER'),
             'password' => getenv('DB_PASSWORD'),
             'charset'     => 'utf8',
+            'prefix'      => getenv('DB_PREFIX'),
             'collation'   => 'utf8_unicode_ci',
             'strict'      => true,
         ]

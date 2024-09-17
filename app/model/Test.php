@@ -12,7 +12,7 @@ class Test extends Model
      *
      * @var string
      */
-    protected $table = 'wjh_tag';
+    protected $table = 'tag';
 
     /**
      * The primary key associated with the table.
